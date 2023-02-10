@@ -1,10 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    
+   
   }
   
   h1 {
     text-align: center;
     margin-top: 50px;
+    
   }
 
   .board > div {
@@ -21,8 +24,8 @@ body {
 
   .board {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     grid-gap: 10px;
     padding: 10px;
     justify-content: center;
@@ -33,4 +36,5 @@ body {
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+    
   }
