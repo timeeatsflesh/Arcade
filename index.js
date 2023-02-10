@@ -49,6 +49,6 @@ function startGame() {
     currentPlayer = player2;
   }
 
-  // Show the current player
+  
   document.getElementById("current-player").innerHTML = currentPlayer.value + " goes first!";
 }
