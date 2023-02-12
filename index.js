@@ -83,6 +83,6 @@ function checkForDraw() {
       return false;
     }
   }
-  document.getElementById("player-draw").innerHTML = "It's a draw!";
+  document.getElementById("current-player").innerHTML = "It's a draw!";
   return true;
 }
