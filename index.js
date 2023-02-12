@@ -81,8 +81,10 @@ function checkForDraw() {
   for (let i = 0; i < squares.length; i++) {
     if (squares[i].textContent === "") {
       return false;
+    } else {
+      return true; 
     }
   }
-  document.getElementById("current-player").innerHTML = "It's a draw!";
+  document.getElementById("its-a-draw").innerHTML = "It's a draw!";
   return true;
 }
